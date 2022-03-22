@@ -1,0 +1,53 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 2px; 
+}
+
+table, tr, td {
+    height: 60px;
+    font-size: 25px;
+}
+  
+table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+th {
+    height: 60px;
+}
+
+.table-header {
+    background-color: rgb(135,206,250);
+    color:#fff;
+}
+
+.table-name {
+    text-align: left;
+}
+
+.table-content {
+    font-weight: 400;
+}
+
+.table-footer-right {
+    text-align: center;
+}
+
+.table-footer-left {
+    text-align: right;
+}
+
+td:hover,
+th:hover {
+    background-color: #ccc;
+}
